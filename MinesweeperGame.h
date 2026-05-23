@@ -152,13 +152,13 @@ public:
 
             if (!reveal(r, c))
             {
-                cout << "💥 BOOM! You hit a mine!\n";
+                cout << "BOOM! You hit a mine!\n";
                 break;
             }
 
             if (checkWin())
             {
-                cout << "🎉 You won the game!\n";
+                cout << "You won the game!\n";
                 break;
             }
         }
